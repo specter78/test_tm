@@ -16,7 +16,7 @@ jobs:
           python-version: '3.x'
     - name: Setup Environment
       run: |
-        sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     - name: Delete workflow runs
       uses: Mattraks/delete-workflow-runs@main
       with:
